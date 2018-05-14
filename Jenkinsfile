@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-@Library('shared-library@master') _
+@Library('shared-library@angular') _
 
 if (env.BRANCH_NAME =~ /release-\d+/) {
   cfAngularCD {
